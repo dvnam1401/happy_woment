@@ -1,7 +1,7 @@
 {
   "name": "cute_web",
   "version": "0.1.0",
-  "homepage": "https://dvnamh1401.github.io/happy_woment",
+  "homepage": "https://dvnam1401.github.io/happy_woment",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^10.0.4",
