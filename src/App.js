@@ -216,7 +216,7 @@ function App() {
         {/* <PuppyFrame /> */}
         <model-viewer
           ref={modelViewerRef}
-          src="/toon_cute_dog.glb"
+          src={`${process.env.PUBLIC_URL}/toon_cute_dog.glb`}
           alt="A cute cartoon dog"
           auto-rotate
           camera-controls
@@ -232,7 +232,7 @@ function App() {
         ></model-viewer>
       </PuppyContainer>
       
-      <MessageCard marginBottom={true} />
+      <MessageCard className="with-margin" />
     </AppContainer>
   );
 }

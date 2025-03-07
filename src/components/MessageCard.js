@@ -425,3 +425,5 @@ const MessageCard = ({ marginBottom }) => {
 };
 
 export default MessageCard;
+
+<MessageCard marginBottom={true} />
